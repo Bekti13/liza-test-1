@@ -120,7 +120,8 @@ export function Footer() {
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © {currentYear} Alex Morgan Photography. All rights reserved.
+              © {currentYear} Elizaveta Tamkova Photography. All rights
+              reserved.
             </p>
             <div className="flex space-x-6 text-sm text-white/60">
               <a href="#" className="hover:text-white transition-colors">

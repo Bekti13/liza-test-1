@@ -383,7 +383,7 @@ export function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const filteredItems =
-    selectedCategory === "All"
+    selectedCategory === "Все"
       ? portfolioItems
       : portfolioItems.filter((item) => item.category === selectedCategory);
 

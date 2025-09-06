@@ -57,8 +57,8 @@ export function About() {
             <div className="relative">
               <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1643968612613-fd411aecd1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTY4MzM0MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Alex Morgan - Professional Photographer"
+                  src="https://tamkovaelizaveta.com/wp-content/uploads/2025/09/IMG_3818-scaled.jpg"
+                  alt="Elizaveta Tamkova - Professional Photographer"
                   className="w-full h-full object-cover"
                 />
               </div>
