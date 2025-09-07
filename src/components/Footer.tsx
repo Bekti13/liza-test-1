@@ -40,27 +40,14 @@ export function Footer() {
               </div>
               <p className="text-white/80">
                 Профессиональный фотограф, запечатлевающий прекрасные моменты
-                жизни с креативностью, страстью и вниманием к деталям. Живу в
-                Нью-Йорке.
+                жизни с креативностью, страстью и вниманием к деталям.
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/eli.tamkova.photo/"
                   className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
                 >
                   <Instagram className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                >
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                >
-                  <Twitter className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -96,21 +83,18 @@ export function Footer() {
 
             {/* Contact Info */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Contact</h4>
+              <h4 className="text-lg font-semibold mb-4">Контакт</h4>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-white/60" />
-                  <span className="text-white/80">+1 (555) 123-4567</span>
+                  <span className="text-white/80">+34 632 746 613</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-4 h-4 text-white/60" />
-                  <span className="text-white/80">alex@alexmorgan.photo</span>
+                  <span className="text-white/80">
+                    tamkovaelizaveta@gmail.com
+                  </span>
                 </div>
-                <p className="text-white/60 text-sm">
-                  New York City, NY
-                  <br />
-                  Available for travel worldwide
-                </p>
               </div>
             </div>
           </div>
@@ -120,18 +104,11 @@ export function Footer() {
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © {currentYear} Elizaveta Tamkova Photography. All rights
-              reserved.
+              © {currentYear} Elizaveta Tamkova Photography.
             </p>
             <div className="flex space-x-6 text-sm text-white/60">
               <a href="#" className="hover:text-white transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                Cookie Policy
+                Политика конфиденциальности
               </a>
             </div>
           </div>

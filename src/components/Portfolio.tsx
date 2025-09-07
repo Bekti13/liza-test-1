@@ -5,10 +5,10 @@ import { v4 as uuidv4 } from "uuid";
 
 interface PortfolioItem {
   id: number;
-  title: string;
+  title?: string;
   category: string;
   image: string;
-  description: string;
+  description?: string;
 }
 
 function generateNumericId(): number {
@@ -20,354 +20,309 @@ function generateNumericId(): number {
 const portfolioItems: PortfolioItem[] = [
   {
     id: generateNumericId(),
-    title: "Название",
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/4-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/3-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/5-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/6-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/7-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/8-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/9-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/10-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/11-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/12-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/13-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Название",
+
     category: "Парная съемка",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/14-scaled.jpg",
-    description: "Описание",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/1-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/2-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/3-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/4-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/5-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/6-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/7-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/8-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/9-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "Стандарт Bliss",
+
     category: "Стандарт",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/10-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/1-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/2-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/3-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/4-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/5-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/6-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/7-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/8-2-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/9-1-scaled.jpg",
-    description: "Intimate moments between couples on their specia1l day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/10-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/11-1-scaled.jpg",
-    description: "Intimate moments between couples on their special1 day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/12-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Расширенный",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/13-1-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/1-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/2-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/3-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/4-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/5-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/6-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image: "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/7-3.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/8-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
   {
     id: generateNumericId(),
-    title: "название",
+
     category: "Premium",
     image:
       "https://tamkovaelizaveta.com/wp-content/uploads/2025/07/9-3-scaled.jpg",
-    description: "Intimate moments between couples on their special day.",
   },
 ];
 

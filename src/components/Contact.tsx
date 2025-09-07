@@ -4,15 +4,7 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Label } from "./ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import {
-  MapPin,
-  Phone,
-  Mail,
-  Clock,
-  Instagram,
-  Facebook,
-  Twitter,
-} from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 import { toast } from "sonner@2.0.3";
 
 export function Contact() {
@@ -60,16 +52,22 @@ export function Contact() {
     {
       icon: Phone,
       title: "Телефон",
-      details: ["+34 123 456 78 90"],
+      details: ["+34 632 746 613"],
     },
     {
       icon: Mail,
       title: "Почта",
-      details: ["test@gmail.com"],
+      details: ["tamkovaelizaveta@gmail.com"],
     },
   ];
 
-  const socialLinks = [{ icon: Instagram, href: "#", label: "@test" }];
+  const socialLinks = [
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/eli.tamkova.photo/",
+      label: "@eli.tamkova.photo",
+    },
+  ];
 
   return (
     <section id="contact" className="py-20 bg-white">
@@ -171,6 +169,7 @@ export function Contact() {
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
+                    target="_blank"
                     href={social.href}
                     className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-200"
                     aria-label={social.label}
